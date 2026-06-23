@@ -1,0 +1,6 @@
+interface:
+  display_name: "Go Get Uncle Matt's HAMMERRR"
+  short_description: "Read-only project-truth audit for stale claims, runtime mismatch, proof gaps, packaging drift, and release reality."
+  default_prompt: "When the user asks for HAMMERRR, a project truth audit, or a repo reality check, inspect from the requested root, compare claims against enforcement and proof, keep read-only boundaries, and report verified, partial, stale, contradicted, dead, unknown, and blocked separately."
+policy:
+  allow_implicit_invocation: true
