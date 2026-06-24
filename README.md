@@ -76,11 +76,20 @@ mkdir -p .agents/skills
 ln -s /absolute/path/to/go-get-uncle-matts-hammerrr .agents/skills/go-get-uncle-matts-hammerrr
 ```
 
-Then invoke naturally or explicitly:
+Invoke it explicitly:
 
 ```text
 $go-get-uncle-matts-hammerrr
 ```
+
+or:
+
+```text
+Go Get Uncle Matt's HAMMERRR
+```
+
+Do not rely on implicit activation for generic review, readiness, repo reality,
+or truth-audit wording.
 
 ### ClawHub
 

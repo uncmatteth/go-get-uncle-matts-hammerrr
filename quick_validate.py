@@ -40,6 +40,7 @@ REQUIRED_SECTIONS = [
 
 REQUIRED_PHRASES = [
     "read-only project-truth audit",
+    "explicitly invoked",
     "claims against reachable runtime behavior",
     "installation, packaging, upgrade, and release paths",
     "Do not use for ordinary PR review",
@@ -141,8 +142,24 @@ def check_templates() -> int:
     return 0
 
 
+def check_agent_policy() -> int:
+    agent = (ROOT / "agents/openai.yaml").read_text(encoding="utf-8")
+    compact_agent = " ".join(agent.split())
+    required = [
+        "allow_implicit_invocation: false",
+        "Use only after the user explicitly invokes",
+        "Do not activate for generic review",
+    ]
+    missing = [phrase for phrase in required if phrase not in compact_agent]
+    if missing:
+        return fail(f"agent policy missing explicit-invocation guard: {', '.join(missing)}")
+    if "allow_implicit_invocation: true" in agent:
+        return fail("agent policy allows implicit invocation")
+    return 0
+
+
 def main() -> int:
-    for check in (check_file_exists, check_skill, check_schema, check_templates):
+    for check in (check_file_exists, check_skill, check_schema, check_templates, check_agent_policy):
         result = check()
         if result:
             return result

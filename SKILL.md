@@ -1,6 +1,6 @@
 ---
 name: go-get-uncle-matts-hammerrr
-description: Use when a repo's story may not match system reality and the user needs a read-only project-truth audit. Audits claims against reachable runtime behavior, config/deployment reality, tests, executable proof, installation, packaging, upgrade, and release paths. Do not use for ordinary PR review, style review, implementation, isolated debugging, or generic tech-debt scanning.
+description: Use only when explicitly invoked as $go-get-uncle-matts-hammerrr or when the user explicitly says "Go Get Uncle Matt's HAMMERRR" and asks for the HAMMERRR read-only project-truth audit. Audits claims against reachable runtime behavior, config/deployment reality, tests, executable proof, installation, packaging, upgrade, and release paths. Do not use for ordinary PR review, style review, implementation, isolated debugging, generic readiness checks, or generic tech-debt scanning.
 ---
 
 # Go Get Uncle Matt's HAMMERRR
@@ -17,8 +17,9 @@ HAMMERRR investigates before anyone starts swinging.
 
 ## Use This Skill When
 
+- The user explicitly invokes `$go-get-uncle-matts-hammerrr`.
+- The user explicitly says "Go Get Uncle Matt's HAMMERRR" and asks for the HAMMERRR audit.
 - A project claims one thing but runtime, install, release, or deployment behavior may prove another.
-- The user asks for a project truth audit, repository reality check, stale-doc audit, contract drift audit, false-success audit, release-readiness audit, or proof-quality audit.
 - A README, runbook, CLI flag, environment variable, package, public page, or deployment guarantee may be stale, partial, bypassable, unreachable, or unsupported by tests.
 - You need findings grounded in current files, current commands, current artifacts, and live probes rather than summaries, memory, or vibes.
 
@@ -27,6 +28,7 @@ HAMMERRR investigates before anyone starts swinging.
 - The task is normal PR review, style review, refactoring, or implementation.
 - The task is isolated debugging of one known failure.
 - The question can be answered by reading one file without reconciling claims, enforcement, and proof.
+- The user asks for a generic reality check, readiness check, or truth audit without explicitly invoking HAMMERRR.
 - The user wants a general security scan rather than a claim-vs-reality audit.
 - The user has already asked for a narrower named skill or path-only review.
 
