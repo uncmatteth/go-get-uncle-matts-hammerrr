@@ -1,6 +1,6 @@
 ---
 name: go-get-uncle-matts-hammerrr
-description: Use only when explicitly invoked as $go-get-uncle-matts-hammerrr or when the user explicitly says "Go Get Uncle Matt's HAMMERRR" and asks for the HAMMERRR read-only project-truth audit. Audits claims against reachable runtime behavior, config/deployment reality, tests, executable proof, installation, packaging, upgrade, and release paths. Do not use for ordinary PR review, style review, implementation, isolated debugging, generic readiness checks, or generic tech-debt scanning.
+description: Use only when the user explicitly names go-get-uncle-matts-hammerrr or says Go Get Uncle Matt's HAMMERRR and asks for the HAMMERRR read-only project-truth audit. Audits claims against reachable runtime behavior, config and deployment reality, tests, executable proof, installation, packaging, upgrade, and release paths. Do not use for ordinary PR review, style review, implementation, isolated debugging, generic readiness checks, or generic tech-debt scanning.
 ---
 
 # Go Get Uncle Matt's HAMMERRR

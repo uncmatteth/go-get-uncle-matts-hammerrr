@@ -40,7 +40,7 @@ REQUIRED_SECTIONS = [
 
 REQUIRED_PHRASES = [
     "read-only project-truth audit",
-    "explicitly invoked",
+    "explicitly names",
     "claims against reachable runtime behavior",
     "installation, packaging, upgrade, and release paths",
     "Do not use for ordinary PR review",
