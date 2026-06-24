@@ -10,6 +10,11 @@ Hardcore Audit of Misleading Models, Evidence Reliability, Runtime, and Reality.
 When the repo's story stops matching the system, go get Uncle Matt's HAMMERRR.
 HAMMERRR investigates before anyone starts swinging.
 
+## Public Links
+
+- GitHub: `https://github.com/uncmatteth/go-get-uncle-matts-hammerrr`
+- ClawHub: `https://clawhub.ai/uncmatteth/skills/go-get-uncle-matts-hammerrr`
+
 ## Use This Skill When
 
 - A project claims one thing but runtime, install, release, or deployment behavior may prove another.

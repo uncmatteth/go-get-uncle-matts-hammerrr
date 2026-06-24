@@ -14,6 +14,11 @@ proof, and installation, packaging, upgrade, and release behavior.
 It is the HAMMERRR-branded successor/variant of the `project-truth-audit`
 capability family.
 
+## Public Links
+
+- GitHub: https://github.com/uncmatteth/go-get-uncle-matts-hammerrr
+- ClawHub: https://clawhub.ai/uncmatteth/skills/go-get-uncle-matts-hammerrr
+
 ## What It Produces
 
 - `PROJECT_TRUTH_AUDIT.md`
@@ -75,6 +80,14 @@ Then invoke naturally or explicitly:
 
 ```text
 $go-get-uncle-matts-hammerrr
+```
+
+### ClawHub
+
+Install from the public ClawHub page:
+
+```text
+https://clawhub.ai/uncmatteth/skills/go-get-uncle-matts-hammerrr
 ```
 
 ## Validation

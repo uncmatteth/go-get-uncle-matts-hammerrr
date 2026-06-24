@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Added public GitHub and ClawHub links to the skill body and README.
+
 ## 1.0.0
 
 - Initial standalone HAMMERRR skill package.
